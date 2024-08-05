@@ -1,0 +1,33 @@
+#gameContainer {
+    text-align: center;
+    margin: 20px;
+}
+
+#gameTable ,tr ,td{
+    border-collapse: collapse;
+    margin: 0 auto;
+     border: 7px solid #BBADA0;
+   }
+#gameTable tr ,td {
+    width: 40px;
+    height: 40px;
+    padding: 16px;
+    margin: 0;
+    background-color: #CDC1B4;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px; 
+    border-radius: 13px;
+}
+
+
+.revealed {
+    background-color: #EEE4DA;
+    color: #776E65;
+}
+
+.text-center{
+    text-align: center;
+}
+
